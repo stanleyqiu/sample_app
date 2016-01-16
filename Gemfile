@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -10,10 +10,6 @@ group :development do
   gem 'rspec-rails', '2.13.1'
 end
 
-group :test do
-  gem 'selenium-webdriver', '2.0.0'
-  gem 'capybara', '2.1.0'
-end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.0'
@@ -39,8 +35,5 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-group :production do
-  gem 'pg', '0.15.1'
-end
 
 
